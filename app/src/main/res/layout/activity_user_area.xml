@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="true"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    tools:context="com.example.hp.edume.UserArea">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:background="@color/primary"
+        android:gravity="center"
+        android:paddingTop="50dp"
+        android:text="Welcome "
+        android:textColor="@color/icons"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/btn_learn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/buttonshape"
+        android:backgroundTint="@color/accent"
+        android:text="Learn"
+        android:textColor="@color/icons" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/blackline" />
+
+    <Button
+        android:id="@+id/btn_qsn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonshape"
+        android:backgroundTint="@color/accent"
+        android:text="Wanna Ask Question?"
+        android:textColor="@color/icons" />
+
+    <Button
+        android:id="@+id/btn_ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonshape"
+        android:backgroundTint="@color/accent"
+        android:text="Post Answer"
+        android:textColor="@color/icons" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:text="Logout"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/primary"
+        android:background="@drawable/buttonshape"
+        android:textColor="@color/icons"></Button>
+</LinearLayout>

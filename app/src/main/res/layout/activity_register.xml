@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    tools:context="com.example.hp.edume.RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.51"
+        android:background="@color/primary"
+        android:gravity="center"
+        android:paddingTop="50dp"
+        android:text=" LearnApp Sign-Up"
+        android:textColor="@color/icons"
+        android:textSize="35dp"></TextView>
+
+    <EditText
+        android:id="@+id/rname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/buttonshape"
+        android:backgroundTint="@color/primary_light"
+        android:drawableLeft="@drawable/user"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:paddingBottom="5dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/secondary_text"
+        android:textSize="20dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/rmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonshape"
+        android:backgroundTint="@color/primary_light"
+        android:drawableLeft="@drawable/email"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:paddingBottom="5dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/secondary_text"
+        android:textSize="20dp"></EditText>
+
+    <EditText
+        android:id="@+id/rpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonshape"
+        android:backgroundTint="@color/primary_light"
+        android:drawableLeft="@drawable/lock"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingBottom="5dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/secondary_text"
+        android:textSize="20dp"></EditText>
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/buttonshape"
+        android:backgroundTint="@color/accent"
+        android:text="Sign Up"
+        android:textColor="@color/icons"></Button>
+
+</LinearLayout>

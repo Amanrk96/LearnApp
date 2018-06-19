@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LearnApp</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="teacher_button">Teacher</string>
+    <string name="student_button">Student</string>
+    <string name="title_activity_login_main">LoginMain</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_user_area">UserArea</string>
+    <string name="title_activity_learn_rv">LearnRV</string>
+    <string name="title_activity_submit_qsn">SubmitQsn</string>
+</resources>
